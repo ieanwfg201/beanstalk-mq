@@ -10,6 +10,7 @@
 
 	<properties>
 		<maven.deploy.version>2.7</maven.deploy.version>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
 	</properties>
 
     <dependencies>
