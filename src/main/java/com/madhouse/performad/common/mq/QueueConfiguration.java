@@ -6,19 +6,24 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Madhouse on 2015/9/7.
  */
-@Component
+//@Component
 public class QueueConfiguration {
+    public static final String PROPERTIES_KEY_HOST = "message.queue.host";
+    public static final String PROPERTIES_KEY_PORT = "message.queue.port";
+    public static final String PROPERTIES_KEY_POOLSIZE = "message.queue.connection.pool.size";
+    public static final String PROPERTIES_KEY_TTR = "message.queue.connection.message.ttr";
 
-    @Value("${message.queue.host}")
+
+//    @Value("${message.queue.host}")
     private String host;
 
-    @Value("${message.queue.port}")
+//    @Value("${message.queue.port}")
     private int port;
 
-    @Value("${message.queue.connection.pool.size}")
+//    @Value("${message.queue.connection.pool.size}")
     private int poolSize;
 
-    @Value("${message.queue.connection.message.ttr}")
+//    @Value("${message.queue.connection.message.ttr}")
     private int ttr;
 
     public int getPoolSize() {

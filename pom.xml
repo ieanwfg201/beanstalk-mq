@@ -6,7 +6,7 @@
 
     <groupId>com.madhouse.performad.common</groupId>
     <artifactId>messagequeue</artifactId>
-    <version>1.0.9</version>
+    <version>4.0.0</version>
 
 	<properties>
 		<maven.deploy.version>2.7</maven.deploy.version>
